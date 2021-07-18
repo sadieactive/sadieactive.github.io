@@ -6,37 +6,53 @@
     <title>Sadie Active</title>
 </head>
 <body>
-    <div class="page-header">
-        <div class="large-header">Sadie Active iOS</div>
-        <div class="subheader">The best way to get in shape using custom workouts made by 
-            <a href="https://www.instagram.com/sadieactive/?hl=en">@SadieActive</a> on Instagram.
+    <div class="site-container">
+        <div class="page-header">
+            <div class="large-header">Sadie Active iOS</div>
+            <div class="subheader">The best way to get in shape using custom workouts made by 
+                <a href="https://www.instagram.com/sadieactive/?hl=en">@SadieActive</a> on Instagram.
+            </div>
         </div>
-    </div>
-    <div class="sections-container">
-        <div class="section">
-            <div class="section-header">Privacy Policy</div>
-            <div class="section-text">The Sadie Active iOS app does not collect or record any data. All recorded data is stored on the user's device and can be deleted with the app at any time.</div>
+        <div style="text-align: center; margin: 1rem;">More Site Content Coming Soon!</div>
+        <div class="sections-container">
+            <div class="section">
+                <div class="section-header">Privacy Policy</div>
+                <div class="section-text">The Sadie Active iOS app does not collect or record any data. All recorded data is stored on the user's device and can be deleted with the app at any time.</div>
+            </div>
         </div>
     </div>
 </body>
 
 <style>
+    html {
+        background: radial-gradient(#242222, #302e2e);
+    }
     body {
         font-family: Arial, Helvetica, sans-serif;
-        background: radial-gradient(#FEA6F0, #FEE2BD);
         box-sizing: border-box;
-        color: rgb(31, 31, 31);
+        color: rgb(232, 226, 226);
+        margin: -1rem;
+    }
+    a {
+        color: red;
+    }
+    .site-container {
+        max-width: 900px;
+        margin: auto;
     }
     .page-header {
         padding: 1rem;
         text-align: center;
+        border-bottom: 1rem solid red;
+        border-top: 1rem solid red;
+        margin-top: 5rem;
     }
     .large-header {
-        font-size: 4rem;
-        font-weight: 400;
+        font-size: 1.5rem;
+        font-weight: 800;
     }
     .subheader {
-        font-size: 2rem;
+        font-size: 1.25rem;
         font-weight: 300;
     }
     .sections-container {
@@ -44,19 +60,25 @@
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
     }
     .section {
         box-shadow: 0px 0px 50px rgb(0,0,0, 15%);
-        max-width: 600px;
+        padding: 0.5rem 0.75rem;
+        border-radius: 10px;
+        background-color: rgba(255,255,255, 25%);
     }
     .section-header {
-        font-size: 1.5rem;
+        font-size: 1rem;
         font-weight: 500;
-        border-bottom: 1px solid rgb(31, 31, 31);
+        border-bottom: 1px solid rgb(235, 229, 229);
+        margin-bottom: 0.5rem;
+        padding-bottom: 0.25rem;
     }
     .section-text {
-        font-size: 1.5rem;
-        font-weight: 300;
+        font-size: 1rem;
+        font-weight: 200;
     }
 </style>
 </html>
