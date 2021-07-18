@@ -8,16 +8,27 @@
 <body>
     <div class="page-header">
         <div class="large-header">Sadie Active iOS</div>
-        <div class="subheader"></div>
+        <div class="subheader">The best way to get in shape using custom workouts made by 
+            <a href="https://www.instagram.com/sadieactive/?hl=en">@SadieActive</a> on Instagram.
+        </div>
     </div>
-
+    <div class="sections-container">
+        <div class="section">
+            <div class="section-header">Privacy Policy</div>
+            <div class="section-text">The Sadie Active iOS app does not collect or record any data. All recorded data is stored on the user's device and can be deleted with the app at any time.</div>
+        </div>
+    </div>
 </body>
 
 <style>
     body {
-        background: linear-gradient(red, white);
+        font-family: Arial, Helvetica, sans-serif;
+        background: radial-gradient(#FEA6F0, #FEE2BD);
+        box-sizing: border-box;
+        color: rgb(31, 31, 31);
     }
     .page-header {
+        padding: 1rem;
         text-align: center;
     }
     .large-header {
@@ -26,6 +37,25 @@
     }
     .subheader {
         font-size: 2rem;
+        font-weight: 300;
+    }
+    .sections-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .section {
+        box-shadow: 0px 0px 50px rgb(0,0,0, 15%);
+        max-width: 600px;
+    }
+    .section-header {
+        font-size: 1.5rem;
+        font-weight: 500;
+        border-bottom: 1px solid rgb(31, 31, 31);
+    }
+    .section-text {
+        font-size: 1.5rem;
         font-weight: 300;
     }
 </style>
